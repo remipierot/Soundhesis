@@ -1,0 +1,44 @@
+﻿Build started 18/04/2017 22:57:19.
+     1>Project "C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\base\base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I../src/external /I../../_engine/src /I../../_engine/src/external /I../../_engine/src/external/bullet/src /ZI /nologo /W3 /WX- /Od /Oy- /D LOG_FILE /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main.cpp
+         main.cpp
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\utils\ny_utils.h(28): warning C4005: 'NAN' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(106) : see previous definition of 'NAN'
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(42): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(48): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(261): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(272): warning C4244: 'initializing' : conversion from 'float' to 'sint16', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(304): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(308): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(311): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\continuous_sound.h(323): warning C4244: '=' : conversion from 'float' to 'sint16', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\sinus_sound.h(34): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_engine\src\engine\sound\noise_sound.h(49): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(119): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(120): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(124): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(125): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(126): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(271): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(273): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(274): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(291): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(292): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(294): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\remi\downloads\tp synthese sonore\_sound_app\src\main.cpp(329): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\Debug\base.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib /LIBPATH:../../_engine/lib libpng16.lib libcurl.lib openal32.lib alut.lib glew32.lib freeglut.lib Kernel32.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\Debug\base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\Debug\base.lib" /MACHINE:X86 /SAFESEH Debug\log.obj
+         Debug\renderer.obj
+         Debug\sound.obj
+         Debug\main.obj
+         base.vcxproj -> C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\Debug\base.exe
+     1>Done Building Project "C:\Users\Remi\Downloads\TP Synthese sonore\_sound_app\base\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.88
